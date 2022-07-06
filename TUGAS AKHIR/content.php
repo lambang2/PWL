@@ -2,7 +2,6 @@
 
   if (isset($_GET['page'])) $page=$_GET['page'];
   else $page="beranda";
-// code by muh iriansyah putra pratama
   if ($page == "beranda") include("page/beranda.php");
 
   elseif ($page == "tentang") include("page/tentang.php");
