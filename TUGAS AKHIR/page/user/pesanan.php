@@ -4,9 +4,8 @@
 <div id="box">
 <h1>Pembayaran</h1>
 <?php
-// code by muh iriansyah putra pratama
+
     include 'lib/koneksi.php';
-// code by muh iriansyah putra pratama
 
     $total = $_GET['jum'];
     $id = $_GET['id'];
@@ -35,8 +34,7 @@
         Lakukan pembayaran dengan mentransfer nominal <b>Jumlah Pembayaran</b> pada rekening :<br>
         BANK MANDIRI<br>
         Rekening : 118-000-972525-9<br>
-        A.N : Muh Iriansyah<br>
-        Referensi : bayar/id user/jersey <b>contoh : bayar/<?php echo $id."/jersey"; ?></b>
+        A.N : Moh. Lambang Prayugo<br>
       </td>
     </tr>
     <tr>
@@ -44,7 +42,7 @@
       <td>
         Jika sudah melakukan pembayaran, segera <b>Konfirmasi Pembayaran</b> dengan mengirimkan bukti pembayaran di : <br>
         <b>WA</b> : 082248080870 <br>
-        <b>LINE</b> : ryanpace11
+        <b>LINE</b> : lmbgprygo
       </td>
     </tr>
     <tr>
