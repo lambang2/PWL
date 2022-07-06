@@ -3,7 +3,6 @@
 </div>
 <div id="box">
 
-<!-- code by muh iriansyah putra pratama -->
 <?php
   include "lib/koneksi.php";
 
@@ -22,7 +21,6 @@
  ?>
 
 <h1>Detail Barang</h1>
-<!-- code by muh iriansyah putra pratama -->
 <form name="belanja" method="post" action="?page=belanja_detailpro" enctype="multipart/form-data">
 
   <table class="article">
@@ -34,14 +32,14 @@
         <img src="img/jersey/<?php echo $row->nama_image ?>" width="100"><br><br>
       </td>
     </tr>
-<!-- code by muh iriansyah putra pratama -->
+      
     <tr>
       <td>Deskripsi Jersey</td>
       <td>
         <?php echo $row->deskripsi ?>
       </td>
     </tr>
-<!-- code by muh iriansyah putra pratama -->
+
     <tr>
       <td>Harga</td>
       <td>
@@ -49,7 +47,7 @@
         <?php echo "Rp. ".$row->harga ?>
       </td>
     </tr>
-<!-- code by muh iriansyah putra pratama -->
+
     <tr>
       <td>Stok</td>
       <td>
@@ -57,7 +55,7 @@
         <?php echo $sisa ?>
       </td>
     </tr>
-<!-- code by muh iriansyah putra pratama -->
+
     <tr>
       <td>Ukuran</td>
       <td>
@@ -71,14 +69,14 @@
         </select>
       </td>
     </tr>
-<!-- code by muh iriansyah putra pratama -->
+
     <tr>
       <td>Qty</td>
       <td>
         <input type="number" name="qty" min="1">
       </td>
     </tr>
-<!-- code by muh iriansyah putra pratama -->
+
     <tr>
       <td>Kurir Pengiriman</td>
       <td>
@@ -93,7 +91,7 @@
         </select>
       </td>
     </tr>
-<!-- code by muh iriansyah putra pratama -->
+
     <tr>
       <td></td>
       <td>
@@ -102,7 +100,6 @@
       </td>
     </tr>
   </table>
-<!-- code by muh iriansyah putra pratama -->
+
 </form>
-<!-- code by muh iriansyah putra pratama -->
 </div>
