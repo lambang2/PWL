@@ -4,9 +4,8 @@
 <div id="box">
 <h1>Detail Barang</h1>
 <?php
-// code by muh iriansyah putra pratama
+
     include 'lib/koneksi.php';
-// code by muh iriansyah putra pratama
 
     $iduser = $_POST['id_user'];
     $idbarang = $_POST['id_barang'];
@@ -17,7 +16,7 @@
     $kurir = $_POST['kurir'];
     $total = $harga * $qty;
     $sisa = $_POST['sisa'];
-// code by muh iriansyah putra pratama
+
 
     if ($qty > $sisa){
       echo "<script>alert('Kuantitas pesanan melebihi sisa stok barang');window.location='?page=belanja_detail&id=$idbarang&st=$sisa'</script>";
